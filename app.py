@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'  # Required for session handling
+app.secret_key = 'abcde'
 
 # Load model and label encoder
 model = pickle.load(open('car_fault_model.pkl', 'rb'))
